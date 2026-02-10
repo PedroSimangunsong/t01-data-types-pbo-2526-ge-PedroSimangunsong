@@ -1,20 +1,4 @@
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        sc.next(); // baca "Soal1"
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        if ((b > 0 && a > Integer.MAX_VALUE - b) ||
-            (b < 0 && a < Integer.MIN_VALUE - b)) {
-            System.out.println("OVERFLOW");
-        } else {
-            System.out.println(a + b);
-        }
-
-        sc.close();
-    }
-}
+mengerjakan soal
+terdapat kesalahan
+memperbaiki error
+seleai
